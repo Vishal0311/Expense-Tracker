@@ -51,16 +51,15 @@
         app:layout_constraintVertical_bias="0.38" />
 
     <ImageView
-
-        android:layout_width="53dp"
+        android:id="@+id/imageView2"
+        android:layout_width="43dp"
         android:layout_height="51dp"
         android:layout_marginTop="12dp"
         android:src="@drawable/ic_income"
         app:layout_constraintEnd_toStartOf="@+id/balance"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/currBal"
-        app:srcCompat="@drawable/rupeespng" />
+        app:layout_constraintTop_toBottomOf="@+id/currBal" />
 
     <TextView
         android:id="@+id/balance"
