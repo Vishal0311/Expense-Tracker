@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view" >
+
+
+    <item android:title="General" >
+        <menu>
+            <item
+                android:id="@+id/homeMenu"
+                android:icon="@drawable/ic_baseline_home_24"
+                android:title="Home" />
+            <item
+                android:id="@+id/Revenue"
+                android:icon="@drawable/ic_income"
+                android:title="Revenue" />
+            <item
+                android:id="@+id/Expense"
+                android:icon="@drawable/ic_expense"
+                android:title="Expense" />
+            <item
+                android:id="@+id/Record"
+                android:icon="@drawable/ic_history"
+                android:title="Record" />
+        </menu>
+
+    </item>
+    <item android:title="Communication" >
+        <menu>
+            <item
+                android:id="@+id/Share"
+                android:icon="@drawable/ic_share"
+                android:title="Share" />
+
+            <item
+                android:id="@+id/LogOutMenu"
+                android:icon="@drawable/ic_logout"
+                android:title="Log out" />
+
+        </menu>
+
+    </item>
+
+</menu>

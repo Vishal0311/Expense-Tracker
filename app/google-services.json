@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "664618961696",
+    "project_id": "expense-tracker-new-d3ba8",
+    "storage_bucket": "expense-tracker-new-d3ba8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:664618961696:android:dec8bdf32a27cae513e545",
+        "android_client_info": {
+          "package_name": "com.vishal.expensetracker"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "664618961696-vksk7fkpc1qsgs2n8osvnvet7qoaof63.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDIuMbnT1tYbzJdIdodwBQkr54JJuNkk0k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "664618961696-vksk7fkpc1qsgs2n8osvnvet7qoaof63.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
