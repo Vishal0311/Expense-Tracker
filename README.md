@@ -4,7 +4,7 @@
 
 
 ###### **This is the screenshot of splash screen **
-![splash screen](https://user-images.githubusercontent.com/67794908/114681133-778fcf00-9d2b-11eb-95c6-0e1904960fd6.jpeg)
+![splash screen](https://user-images.githubusercontent.com/67794908/114681584-eb31dc00-9d2b-11eb-8533-0dbc73a3f559.jpeg)
 
 ###### **This is the screenshot of registration activity where user will register his/her account**
 ![registration](https://user-images.githubusercontent.com/67794908/114679025-6cd43a80-9d29-11eb-86e1-9e9e5e8d9438.jpg)
