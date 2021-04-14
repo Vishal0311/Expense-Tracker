@@ -16,13 +16,13 @@
 ###### **This is the screenshot of home fragment where user will see his total savings/lendings till current date**
 ![home](https://user-images.githubusercontent.com/67794908/114679036-6fcf2b00-9d29-11eb-9623-b3b9b68fc316.jpg)
 
-###### **This is the screenshot of revenue fragment where user will provide amount, date of transaction, and comment if he want**
+###### **This is the screenshot of revenue fragment where user will provide amount, date of transaction, and comment if he wants**
 ![revenue](https://user-images.githubusercontent.com/67794908/114679026-6d6cd100-9d29-11eb-8e3f-b16d08881ee7.jpg)
 
-###### **This is the screenshot of expense fragment where user will provide amount, date of transaction, and comment if he want**
+###### **This is the screenshot of expense fragment where user will provide amount, date of transaction, and comment if he wants**
 ![expense](https://user-images.githubusercontent.com/67794908/114679034-6f369480-9d29-11eb-9676-710e66b58fd4.jpg)
 
-###### **This is the screenshot of history section where we will get record of all our income and expense**
+###### **This is the screenshot of history section where we will get record of all his/her income and expense**
 ![record](https://user-images.githubusercontent.com/67794908/114679017-6b0a7700-9d29-11eb-8430-bed2db211213.jpg)
 
 
