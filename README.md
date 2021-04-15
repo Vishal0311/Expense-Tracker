@@ -16,7 +16,7 @@
 ![drawer](https://user-images.githubusercontent.com/67794908/114679032-6e9dfe00-9d29-11eb-8f9f-a8bba455ea8e.jpg)
 
 ###### **This is the screenshot of home fragment where user will see his total savings/lendings till current date**
-![home](https://user-images.githubusercontent.com/67794908/114679036-6fcf2b00-9d29-11eb-9623-b3b9b68fc316.jpg)
+![home](https://user-images.githubusercontent.com/67794908/114834276-07964d00-9dee-11eb-9300-b8efba580073.jpg)
 
 ###### **This is the screenshot of revenue fragment where user will provide amount, date of transaction, and comment if he wants**
 ![revenue](https://user-images.githubusercontent.com/67794908/114679026-6d6cd100-9d29-11eb-8e3f-b16d08881ee7.jpg)
