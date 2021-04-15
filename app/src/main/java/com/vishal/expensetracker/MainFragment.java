@@ -38,7 +38,7 @@ public class MainFragment extends Fragment {
         db = FirebaseDatabase.getInstance();
         reference=db.getReference("user").child(firebaseAuth.getCurrentUser().getUid());
 
-         bal=(TextView) view.findViewById(R.id.balance);
+        bal=(TextView) view.findViewById(R.id.balance);
         refresh=view.findViewById(R.id.refresh);
         refresh.setOnClickListener(new View.OnClickListener() {
             @Override

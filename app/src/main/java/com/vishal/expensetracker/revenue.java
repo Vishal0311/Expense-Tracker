@@ -89,6 +89,7 @@ public class revenue extends Fragment {
                         currBal=currBal+Integer.parseInt(gains);
                         HashMap map=new HashMap();
                         map.put("savings",currBal);
+
                         reference.updateChildren(map).addOnSuccessListener(new OnSuccessListener() {
                             @Override
                             public void onSuccess(Object o) {
