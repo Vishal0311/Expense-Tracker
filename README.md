@@ -6,14 +6,14 @@ Expance tracker app is simple app with simple ui that helps user to track their 
 User can alse view their net profit/loss at home page.
 
 ## Features
-Markup : * User Realtime Database
+         * User Realtime Database
          * Login & Signup
          * Share feature
          * Logout
        
   
  ## Tools Used
- Markup : * Firebase Authentication
+          * Firebase Authentication
           * Realtime Database
           * Recycler View
           * Hamburger navigation bar
