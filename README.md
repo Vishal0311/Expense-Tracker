@@ -1,8 +1,26 @@
-# Expense_App
-## This app will let you store all your expense and income.
+# Expense Tracker App
 
 
+## About
+Expance tracker app is simple app with simple ui that helps user to track their income or expense, and show all your history at one place i.e record page. 
+User can alse view their net profit/loss at home page.
 
+## Features
+Markup : * User Realtime Database
+         * Login & Signup
+         * Share feature
+         * Logout
+       
+  
+ ## Tools Used
+ Markup : * Firebase Authentication
+          * Realtime Database
+          * Recycler View
+          * Hamburger navigation bar
+          * Fragments
+
+
+## Preview
 ###### **This is the screenshot of splash screen **
 ![splash screen](https://user-images.githubusercontent.com/67794908/114681584-eb31dc00-9d2b-11eb-8533-0dbc73a3f559.jpeg)
 
