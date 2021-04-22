@@ -17,6 +17,8 @@ import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
 
+import java.util.Objects;
+
 //import android.os.Bundle;
 
 
@@ -36,9 +38,22 @@ public class MainFragment extends Fragment {
         View view=inflater.inflate(R.layout.fragment_main, container, false);
         firebaseAuth=FirebaseAuth.getInstance();
         db = FirebaseDatabase.getInstance();
-        reference=db.getReference("user").child(firebaseAuth.getCurrentUser().getUid());
+        reference=db.getReference("user").child(Objects.requireNonNull(firebaseAuth.getCurrentUser()).getUid());
 
         bal=(TextView) view.findViewById(R.id.balance);
+        reference.addListenerForSingleValueEvent(new ValueEventListener() {
+            @Override
+            public void onDataChange(@NonNull DataSnapshot snapshot) {
+                String val= Objects.requireNonNull(snapshot.child("savings").getValue()).toString();
+                //   value=Integer.parseInt(val);
+                bal.setText(val);
+            }
+
+            @Override
+            public void onCancelled(@NonNull DatabaseError error) {
+
+            }
+        });
         refresh=view.findViewById(R.id.refresh);
         refresh.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -47,7 +62,7 @@ public class MainFragment extends Fragment {
                 reference.addListenerForSingleValueEvent(new ValueEventListener() {
                     @Override
                     public void onDataChange(@NonNull DataSnapshot snapshot) {
-                         String val=snapshot.child("savings").getValue().toString();
+                         String val= Objects.requireNonNull(snapshot.child("savings").getValue()).toString();
                       //   value=Integer.parseInt(val);
                         bal.setText(val);
                     }
