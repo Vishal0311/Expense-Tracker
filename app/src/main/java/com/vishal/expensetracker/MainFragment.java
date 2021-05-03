@@ -78,21 +78,11 @@ public class MainFragment extends Fragment {
         return view;
     }
 
-//    @Override
-//    public void onCreate(@Nullable Bundle savedInstanceState) {
-//        super.onCreate(savedInstanceState);
-//        value=savedInstanceState.getInt("bal_key");
-//    }
 
     @Override
     public void onResume() {
         super.onResume();
     }
-//    @Override
-//    public void onSaveInstanceState(Bundle outState) {
-//        outState.putString("bal_key", String.valueOf(value));
-//        super.onSaveInstanceState(outState);
-//    }
 
     @Override
     public void onStart() {
